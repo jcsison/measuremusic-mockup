@@ -4,7 +4,7 @@ import './charts-header.css'
 
 export default function ChartsHeader(props) {
   return (
-    <div class="charts-header">
+    <div className="charts-header">
       <h1>ChartsHeader</h1>
     </div>
   )

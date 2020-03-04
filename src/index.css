@@ -6,8 +6,12 @@ body {
 }
 
 :focus {
-  outline: 1px solid rgba(81, 203, 238, 1);
+  outline: 1px solid rgba(81, 203, 238, 0.5);
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+::placeholder {
+  opacity: 1;
 }
 
 .flex-container {

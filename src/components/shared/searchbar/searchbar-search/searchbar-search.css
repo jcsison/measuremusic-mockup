@@ -1,9 +1,17 @@
 .searchbar-search {
   background-color: #fff;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   flex-grow: 1;
 }
 
 .search-input {
+  background-image: url('/images/search-icon.png');
+  background-position: 22px 24px;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  border: none;
+  font-family: 'Source Sans Pro', sans-serif;
   flex-grow: 1;
+  padding-left: 46px;
 }

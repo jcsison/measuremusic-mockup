@@ -4,88 +4,92 @@ import './navbar.css'
 
 export default function Navbar(props) {
   return (
-    <div class="navbar">
+    <div className="navbar">
       <a href="/#">
-        <img class="logo" alt="measuremusic" src="/images/measuremusic.png" />
+        <img
+          className="logo"
+          alt="measuremusic"
+          src="/images/measuremusic.png"
+        />
       </a>
 
-      <ul class="navlinks">
-        <li class="flex-container li-sp-lg">
-          <a class="flex-link inactive-link navlink" href="/#">
+      <ul className="navlinks">
+        <li className="flex-container li-sp-lg">
+          <a className="flex-link inactive-link navlink" href="/#">
             Dashboard
           </a>
         </li>
-        <li class="li-sp-lg">
-          <a class="active-link flex-container navlink" href="/#">
-            <span class="flex-link">Charts</span>
-            <i class="fas fa-chevron-up fa-sm" />
+        <li className="li-sp-lg">
+          <a className="active-link flex-container navlink" href="/#">
+            <span className="flex-link">Charts</span>
+            <i className="fas fa-chevron-up fa-sm" />
           </a>
         </li>
 
-        <ul class="charts-links">
-          <li class="li-sp-sm">
-            <a class="active-link flex-container navlink" href="/#">
-              <i class="fas fa-chevron-right fa-sm selected-link" />
+        <ul className="charts-links">
+          <li className="li-sp-sm">
+            <a className="active-link flex-container navlink" href="/#">
+              <i className="fas fa-chevron-right fa-sm selected-link" />
               Hits50
             </a>
           </li>
-          <li class="flex-container li-sp-sm">
-            <a class="charts-link inactive-link flex-link" href="/#">
+          <li className="flex-container li-sp-sm">
+            <a className="charts-link inactive-link flex-link" href="/#">
               Alternative
             </a>
           </li>
-          <li class="flex-container li-sp-sm">
-            <a class="charts-link inactive-link flex-link" href="/#">
+          <li className="flex-container li-sp-sm">
+            <a className="charts-link inactive-link flex-link" href="/#">
               AC
             </a>
           </li>
-          <li class="flex-container li-sp-sm">
-            <a class="charts-link inactive-link flex-link" href="/#">
+          <li className="flex-container li-sp-sm">
+            <a className="charts-link inactive-link flex-link" href="/#">
               Country
             </a>
           </li>
-          <li class="flex-container li-sp-sm">
-            <a class="charts-link inactive-link flex-link" href="/#">
+          <li className="flex-container li-sp-sm">
+            <a className="charts-link inactive-link flex-link" href="/#">
               Active Rock
             </a>
           </li>
-          <li class="flex-container li-sp-sm">
-            <a class="charts-link inactive-link flex-link" href="/#">
+          <li className="flex-container li-sp-sm">
+            <a className="charts-link inactive-link flex-link" href="/#">
               Smooth Jazz
             </a>
           </li>
         </ul>
 
-        <li class="li-sp-lg">
-          <a class="inactive-link flex-container navlink" href="/#">
-            <span class="flex-link">Artist Insights</span>
-            <i class="fas fa-chevron-down fa-sm" />
+        <li className="li-sp-lg">
+          <a className="inactive-link flex-container navlink" href="/#">
+            <span className="flex-link">Artist Insights</span>
+            <i className="fas fa-chevron-down fa-sm" />
           </a>
         </li>
-        <li class="li-sp-lg">
-          <a class="inactive-link flex-container navlink" href="/#">
-            <span class="flex-link">Song Insights</span>
-            <i class="fas fa-chevron-down fa-sm" />
+        <li className="li-sp-lg">
+          <a className="inactive-link flex-container navlink" href="/#">
+            <span className="flex-link">Song Insights</span>
+            <i className="fas fa-chevron-down fa-sm" />
           </a>
         </li>
-        <li class="flex-container li-sp-lg">
-          <a class="flex-link inactive-link navlink" href="/#">
+        <li className="flex-container li-sp-lg">
+          <a className="flex-link inactive-link navlink" href="/#">
             Label Insights
           </a>
         </li>
-        <li class="li-sp-lg">
-          <a class="inactive-link flex-container navlink" href="/#">
-            <span class="flex-link">Station Insights</span>
-            <i class="fas fa-chevron-down fa-sm" />
+        <li className="li-sp-lg">
+          <a className="inactive-link flex-container navlink" href="/#">
+            <span className="flex-link">Station Insights</span>
+            <i className="fas fa-chevron-down fa-sm" />
           </a>
         </li>
-        <li class="flex-container li-sp-lg">
-          <a class="flex-link inactive-link navlink" href="/#">
+        <li className="flex-container li-sp-lg">
+          <a className="flex-link inactive-link navlink" href="/#">
             Market View
           </a>
         </li>
-        <li class="flex-container li-sp-lg">
-          <a class="flex-link inactive-link navlink" href="/#">
+        <li className="flex-container li-sp-lg">
+          <a className="flex-link inactive-link navlink" href="/#">
             Compare
           </a>
         </li>
