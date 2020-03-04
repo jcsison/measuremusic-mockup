@@ -1,0 +1,33 @@
+.charts-links {
+  list-style-type: none;
+}
+
+.logo {
+  display: block;
+  margin: 24px auto;
+  width: 80%;
+}
+
+.navbar {
+  background-color: #fff;
+  border: 1px solid #ececec;
+  flex-basis: 232px;
+  flex-shrink: 0;
+  height: 4207px;
+}
+
+.navlinks {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    flex-basis: 32px;
+  }
+}
