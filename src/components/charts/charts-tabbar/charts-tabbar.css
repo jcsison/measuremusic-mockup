@@ -1,3 +1,30 @@
 .charts-tabbar {
-  background-color: #f00;
+  display: flex;
+  padding: 24px 0 4px;
+}
+
+.tab-label {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0 24px 0 24px;
+  padding-bottom: 16px;
+  text-decoration: none;
+}
+
+.tab-label-active {
+  border-bottom: 2px solid #000;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+
+.tab-label-first {
+  margin: 0 24px 0 0;
+}
+
+.tab-label-last {
+  margin: 0 0 0 24px;
+}
+
+.tabbar-area {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 16px;
 }

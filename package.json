@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "aws2 s3 sync build/ s3://measuremusic-mockup --acl public-read",
+    "deploy": "npm run build && aws2 s3 sync build/ s3://measuremusic-mockup --acl public-read",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lintcss": "stylelint \"src/components/**/*.css\"",

@@ -1,3 +1,21 @@
-.charts-header {
-  background-color: #f00;
+.header-date {
+  color: #000;
+}
+
+.header-path {
+  opacity: 0.5;
+  letter-spacing: -0.52px;
+}
+
+.header-subtitle {
+  color: #797979;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header-title {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -1.1px;
+  margin-bottom: 4px;
 }
