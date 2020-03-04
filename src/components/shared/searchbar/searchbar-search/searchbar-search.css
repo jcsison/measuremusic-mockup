@@ -1,5 +1,9 @@
 .searchbar-search {
-  background-color: #f00;
+  background-color: #fff;
   display: flex;
+  flex-grow: 1;
+}
+
+.search-input {
   flex-grow: 1;
 }

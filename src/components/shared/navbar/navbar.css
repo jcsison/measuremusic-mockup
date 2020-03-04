@@ -1,10 +1,13 @@
+.active-link {
+  color: #000;
+}
+
 .charts-links {
   list-style-type: none;
   padding-left: 16px;
 }
 
 .charts-link {
-  color: #000;
   font-weight: 400;
   text-decoration: none;
 }
@@ -18,7 +21,7 @@
 }
 
 .inactive-link {
-  opacity: 0.5;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .li-sp-sm {
@@ -49,10 +52,8 @@
 }
 
 .navlink {
-  color: #000;
   font-weight: 600;
   text-decoration: none;
-  width: 100%;
 }
 
 .selected-link {
