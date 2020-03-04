@@ -6,9 +6,8 @@ body {
 }
 
 :focus {
-  border: 1px solid rgba(81, 203, 238, 1);
+  outline: 1px solid rgba(81, 203, 238, 1);
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  outline: none !important;
 }
 
 .flex-container {
@@ -19,5 +18,4 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: stretch;
 }

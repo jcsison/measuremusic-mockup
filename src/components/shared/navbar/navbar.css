@@ -1,11 +1,38 @@
 .charts-links {
   list-style-type: none;
+  padding-left: 16px;
+}
+
+.charts-link {
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.fas {
+  margin-top: 4px;
+}
+
+.flex-link {
+  flex-grow: 1;
+}
+
+.inactive-link {
+  opacity: 0.5;
+}
+
+.li-sp-sm {
+  padding: 8px 0;
+}
+
+.li-sp-lg {
+  padding: 12px 0;
 }
 
 .logo {
   display: block;
   margin: 24px auto;
-  width: 80%;
+  width: 78%;
 }
 
 .navbar {
@@ -18,6 +45,18 @@
 
 .navlinks {
   list-style-type: none;
+  padding: 32px 24px;
+}
+
+.navlink {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+}
+
+.selected-link {
+  flex-basis: 16px;
 }
 
 @media only screen and (max-width: 991px) {
