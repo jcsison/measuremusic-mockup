@@ -1,3 +1,32 @@
+.chart-block {
+  margin: 32px 24px;
+}
+
+.chart-block-container {
+  flex-basis: 33%;
+}
+
+.chart-title-large {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.9px;
+  padding-bottom: 16px;
+}
+
 .charts-hl-large {
-  background-color: #f00;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -24px;
+}
+
+@media only screen and (max-width: 1599px) {
+  .chart-block-container {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .chart-block-container {
+    flex-basis: 100%;
+  }
 }

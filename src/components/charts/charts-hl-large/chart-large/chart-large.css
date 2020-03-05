@@ -1,0 +1,89 @@
+.chart-large {
+  background-color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.chart-lg-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.chart-lg-icon-down {
+  color: #f2648a;
+  font-size: 12px;
+  margin-right: 4px;
+  transform: rotate(45deg);
+}
+
+.chart-lg-icon-plus {
+  margin: 0 6px 2px 0;
+}
+
+.chart-lg-icon-up {
+  color: #00d092;
+  font-size: 12px;
+  margin-right: 4px;
+  transform: rotate(45deg);
+}
+
+.chart-lg-img {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.1);
+  height: 75px;
+  width: 75px;
+}
+
+.chart-lg-info {
+  padding: 0 16px 0 32px;
+}
+
+.chart-lg-left {
+  display: flex;
+}
+
+.chart-lg-options {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  color: #000;
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 28px;
+}
+
+.chart-lg-main {
+  align-items: center;
+  display: flex;
+}
+
+.chart-lg-right {
+  align-items: center;
+  display: flex;
+}
+
+.chart-lg-stat {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.chart-lg-substat {
+  color: #9a9a9a;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.42px;
+  text-align: right;
+}
+
+.chart-lg-subtitle {
+  color: #9a9a9a;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.42px;
+}
+
+.chart-lg-title {
+  font-weight: 600;
+  letter-spacing: -0.52px;
+}

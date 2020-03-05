@@ -1,11 +1,13 @@
 .charts-tabbar {
   display: flex;
+  flex-wrap: nowrap;
   padding: 24px 0 4px;
+  white-space: nowrap;
 }
 
 .tab-label {
   color: rgba(0, 0, 0, 0.4);
-  margin: 0 24px 0 24px;
+  margin: 0 24px;
   padding-bottom: 16px;
   text-decoration: none;
 }
@@ -27,4 +29,18 @@
 .tabbar-area {
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 1079px) {
+  .tab-label {
+    margin: 0 12px;
+  }
+
+  .tab-label-first {
+    margin: 0 12px 0 0;
+  }
+
+  .tab-label-last {
+    margin: 0 0 0 12px;
+  }
 }
