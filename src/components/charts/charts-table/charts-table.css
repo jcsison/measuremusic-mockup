@@ -1,3 +1,39 @@
 .charts-table {
-  background-color: #f00;
+  padding: 32px 0;
+}
+
+.charts-tbl-question {
+  margin-right: 6px;
+}
+
+.charts-tbl-term-label {
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.table-bubble {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 4px 16%;
+}
+
+.table-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.table-link:hover {
+  color: #0029ff;
+}
+
+.table-link-arrow {
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+.table-tw-cell {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 -15px;
 }

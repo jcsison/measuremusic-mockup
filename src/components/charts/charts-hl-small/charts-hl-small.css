@@ -20,7 +20,11 @@
   margin-bottom: 32px;
 }
 
-@media only screen and (max-width: 1599px) {
+.charts-hl-small {
+  padding: 32px 0;
+}
+
+@media only screen and (max-width: 1759px) {
   .chart-sm-block-container {
     flex-basis: 33%;
   }

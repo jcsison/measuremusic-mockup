@@ -1,0 +1,102 @@
+[
+  {
+    "tw": "5",
+    "lw": "2",
+    "weeks": "12",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "32",
+    "spins": "18,360",
+    "change": "+13"
+  },
+  {
+    "tw": "1",
+    "lw": "3",
+    "weeks": "15",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "87",
+    "spins": "18,360",
+    "change": "-5"
+  },
+  {
+    "tw": "3",
+    "lw": "5",
+    "weeks": "3",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "59",
+    "spins": "18,360",
+    "change": "-2"
+  },
+  {
+    "tw": "10",
+    "lw": "8",
+    "weeks": "9",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "121",
+    "spins": "18,360",
+    "change": "+1"
+  },
+  {
+    "tw": "2",
+    "lw": "1",
+    "weeks": "54",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "9",
+    "spins": "18,360",
+    "change": "+2"
+  },
+  {
+    "tw": "5",
+    "lw": "7",
+    "weeks": "381",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "6",
+    "spins": "18,360",
+    "change": "-5"
+  },
+  {
+    "tw": "4",
+    "lw": "4",
+    "weeks": "3",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "11",
+    "spins": "18,360",
+    "change": "-5"
+  },
+  {
+    "tw": "3",
+    "lw": "5",
+    "weeks": "14",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "32",
+    "spins": "18,360",
+    "change": "-5"
+  },
+  {
+    "tw": "3",
+    "lw": "5",
+    "weeks": "14",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "12",
+    "spins": "18,360",
+    "change": "-5"
+  },
+  {
+    "tw": "3",
+    "lw": "5",
+    "weeks": "14",
+    "artist": "Ariana Grande",
+    "title": "7 Rings",
+    "stations": "12",
+    "spins": "18,360",
+    "change": "-5"
+  }
+]

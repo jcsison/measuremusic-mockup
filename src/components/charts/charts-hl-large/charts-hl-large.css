@@ -19,7 +19,7 @@
   margin: 0 -24px;
 }
 
-@media only screen and (max-width: 1599px) {
+@media only screen and (max-width: 1759px) {
   .chart-lg-block-container {
     flex-basis: 50%;
   }
