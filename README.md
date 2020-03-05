@@ -1,10 +1,10 @@
 # measuremusic-mockup
 
-Recreation of the MeasureMusic mockup in React.
+Recreation of the MeasureMusic design mockup in React.
 
 ![Preview](preview.gif)
 
-Check out the demo [here](http://measuremusic-mockup.s3-website-us-west-1.amazonaws.com/)!
+Check out the live demo [here](http://measuremusic-mockup.s3-website-us-west-1.amazonaws.com/)!
 
 ## Requirements
 - [Node.js](https://nodejs.org/en/download/current/)
