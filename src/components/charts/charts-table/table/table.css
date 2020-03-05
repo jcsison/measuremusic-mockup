@@ -30,11 +30,11 @@ th {
 }
 
 th:first-child {
-  border-radius: 4px 0 0 0;
+  border-radius: 5px 0 0 0;
 }
 
 th:last-child {
-  border-radius: 0 4px 0 0;
+  border-radius: 0 5px 0 0;
 }
 
 th:nth-child(n + 4):nth-child(-n + 5) {
@@ -48,6 +48,7 @@ th:nth-child(n + 4):nth-child(-n + 5) {
 }
 
 .table-icon-plus {
+  font-size: 14px;
   margin-left: 4px;
 }
 

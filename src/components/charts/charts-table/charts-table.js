@@ -1,5 +1,7 @@
 import React from 'react'
+import { Tooltip } from 'react-tippy'
 
+import ChartsTableTerms from './charts-table-terms'
 import Table from './table'
 
 import tableData from './objects/table-data.json'
@@ -84,10 +86,17 @@ export default function ChartsTable(props) {
 
   return (
     <div className="charts-table">
-      <div className="charts-tbl-term-label">
-        <i className="charts-tbl-question fas fa-question-circle" />
-        Chart Terminology Definitions
-      </div>
+      <Tooltip
+        animation="shift"
+        html={<ChartsTableTerms />}
+        position="bottom-end"
+        trigger="mouseenter"
+      >
+        <div className="charts-tbl-term-label">
+          <i className="charts-tbl-question fas fa-question-circle" />
+          Chart Terminology Definitions
+        </div>
+      </Tooltip>
 
       <Table columns={columns} data={data} />
     </div>

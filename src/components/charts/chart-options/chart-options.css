@@ -1,0 +1,20 @@
+.chart-option {
+  margin: 16px;
+}
+
+.chart-option-icon {
+  margin-right: 12px;
+}
+
+.chart-option-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.chart-options {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+  margin: 16px 0 16px 1px;
+  padding: 12px 72px 12px 8px;
+}

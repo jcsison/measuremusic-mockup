@@ -1,4 +1,7 @@
 import React from 'react'
+import { Tooltip } from 'react-tippy'
+
+import ChartOptions from '../../chart-options'
 
 import './chart-small.css'
 
@@ -22,9 +25,16 @@ export default function ChartSmall(props) {
               )}
             </div>
 
-            <button className="chart-sm-options">
-              <i className="chart-sm-icon-plus fas fa-plus fa-sm" />
-            </button>
+            <Tooltip
+              animation="shift"
+              html={<ChartOptions />}
+              position="bottom-start"
+              trigger="click"
+            >
+              <button className="chart-sm-options">
+                <i className="chart-sm-icon-plus fas fa-plus fa-sm" />
+              </button>
+            </Tooltip>
           </span>
         </div>
 

@@ -1,4 +1,7 @@
 import React from 'react'
+import { Tooltip } from 'react-tippy'
+
+import ChartOptions from '../../chart-options'
 
 import './chart-large.css'
 
@@ -22,10 +25,17 @@ export default function ChartLarge(props) {
               )}
             </div>
 
-            <button className="chart-lg-options">
-              <i className="chart-lg-icon-plus fas fa-plus fa-sm" />
-              Options
-            </button>
+            <Tooltip
+              animation="shift"
+              html={<ChartOptions />}
+              position="bottom-start"
+              trigger="click"
+            >
+              <button className="chart-lg-options">
+                <i className="chart-lg-icon-plus fas fa-plus fa-sm" />
+                Options
+              </button>
+            </Tooltip>
           </span>
         </div>
 
