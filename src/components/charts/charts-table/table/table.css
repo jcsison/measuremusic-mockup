@@ -48,7 +48,7 @@ th:nth-child(n + 4):nth-child(-n + 5) {
 }
 
 .table-icon-plus {
-  font-size: 14px;
+  font-size: 1.4rem;
   margin-left: 4px;
 }
 

@@ -13,13 +13,13 @@ import './hits50.css'
 
 export default function Hits50(props) {
   return (
-    <div className="flex-container">
+    <div className="hits50">
       <Navbar />
 
       <div className="flex-subcontainer">
         <Searchbar />
 
-        <div className="hits50">
+        <div className="hits50-content">
           <ChartsHeader />
           <ChartsTabbar />
           <ChartsHlLarge />

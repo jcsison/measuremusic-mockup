@@ -86,17 +86,17 @@ export default function ChartsTable(props) {
 
   return (
     <div className="charts-table">
-      <Tooltip
-        animation="shift"
-        html={<ChartsTableTerms />}
-        position="bottom-end"
-        trigger="mouseenter"
-      >
-        <div className="charts-tbl-term-label">
+      <div className="charts-tbl-term-label">
+        <Tooltip
+          animation="shift"
+          html={<ChartsTableTerms />}
+          position="bottom-end"
+          trigger="mouseenter"
+        >
           <i className="charts-tbl-question fas fa-question-circle" />
           Chart Terminology Definitions
-        </div>
-      </Tooltip>
+        </Tooltip>
+      </div>
 
       <Table columns={columns} data={data} />
     </div>

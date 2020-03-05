@@ -11,19 +11,19 @@
 
 .chart-sm-icon-down {
   color: #f2648a;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-right: 4px;
   transform: rotate(45deg);
 }
 
 .chart-sm-icon-plus {
   height: 10px;
-  margin: 0 0 5px 0;
+  margin: 0 0 5px 1px;
 }
 
 .chart-sm-icon-up {
   color: #00d092;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-right: 4px;
   transform: rotate(45deg);
 }
@@ -40,7 +40,7 @@
 
 .chart-sm-info-subtitle {
   color: #9a9a9a;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: -0.42px;
 }
@@ -63,6 +63,7 @@
   display: flex;
   font-family: 'Source Sans Pro', sans-serif;
   height: 28px;
+  width: 28px;
 }
 
 .chart-sm-main {
@@ -76,15 +77,21 @@
 }
 
 .chart-sm-stat {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 600;
   text-align: right;
 }
 
 .chart-sm-substat {
   color: #9a9a9a;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: -0.42px;
   text-align: right;
+}
+
+@supports (-moz-appearance: none) {
+  .chart-sm-icon-plus {
+    margin: 0 0 5px 0;
+  }
 }

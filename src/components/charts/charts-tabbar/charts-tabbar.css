@@ -1,8 +1,6 @@
 .charts-tabbar {
   display: flex;
-  flex-wrap: nowrap;
   padding: 24px 0 4px;
-  white-space: nowrap;
 }
 
 .tab-label {
@@ -31,18 +29,68 @@
   padding-bottom: 16px;
 }
 
-/*
 @media only screen and (max-width: 1079px) {
   .tab-label {
-    margin: 0 12px;
+    margin: 0 19px;
   }
 
   .tab-label-first {
-    margin: 0 12px 0 0;
+    margin: 0 19px 0 0;
   }
 
   .tab-label-last {
-    margin: 0 0 0 12px;
+    margin: 0 0 0 19px;
   }
 }
-*/
+
+@media only screen and (max-width: 975px) {
+  .tab-label {
+    margin: 0 14px;
+  }
+
+  .tab-label-first {
+    margin: 0 14px 0 0;
+  }
+
+  .tab-label-last {
+    margin: 0 0 0 14px;
+  }
+}
+
+@media only screen and (max-width: 863px) {
+  .tab-label {
+    margin: 0 10px;
+  }
+
+  .tab-label-first {
+    margin: 0 10px 0 0;
+  }
+
+  .tab-label-last {
+    margin: 0 0 0 10px;
+  }
+}
+
+@media only screen and (max-width: 679px) {
+  .tab-label {
+    margin: 0 5px;
+  }
+
+  .tab-label-first {
+    margin: 0 5px 0 0;
+  }
+
+  .tab-label-last {
+    margin: 0 0 0 5px;
+  }
+}
+
+@media only screen and (max-width: 617px) {
+  .tab-label-active {
+    border-bottom: none;
+  }
+
+  .tabbar-area {
+    border-bottom: none;
+  }
+}

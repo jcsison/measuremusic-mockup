@@ -2,6 +2,8 @@
 
 Recreation of the MeasureMusic mockup in React.
 
+![Preview](preview.gif)
+
 Check out the demo [here](http://measuremusic-mockup.s3-website-us-west-1.amazonaws.com/)!
 
 ## Requirements

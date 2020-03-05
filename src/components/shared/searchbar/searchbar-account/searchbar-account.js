@@ -6,10 +6,10 @@ export default function SearchbarAccount(props) {
   return (
     <a className="searchbar-anchor" href="/#">
       <div className="searchbar-account">
-        <div className="account-info">
+        <span className="account-info">
           <div className="account-name">Mike Spiegl</div>
           <div className="account-email">mike@hyperfoqus.com</div>
-        </div>
+        </span>
 
         <i className="account-chevron fas fa-chevron-down fa-sm" />
       </div>

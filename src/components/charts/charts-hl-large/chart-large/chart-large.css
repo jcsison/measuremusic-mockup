@@ -11,7 +11,7 @@
 
 .chart-lg-icon-down {
   color: #f2648a;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-right: 4px;
   transform: rotate(45deg);
 }
@@ -22,7 +22,7 @@
 
 .chart-lg-icon-up {
   color: #00d092;
-  font-size: 12px;
+  font-size: 1.2rem;
   margin-right: 4px;
   transform: rotate(45deg);
 }
@@ -39,7 +39,7 @@
 
 .chart-lg-info-subtitle {
   color: #9a9a9a;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: -0.42px;
 }
@@ -76,14 +76,14 @@
 }
 
 .chart-lg-stat {
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 600;
   text-align: right;
 }
 
 .chart-lg-substat {
   color: #9a9a9a;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: -0.42px;
   text-align: right;

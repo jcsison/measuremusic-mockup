@@ -1,24 +1,23 @@
-.account-chevron {
-  padding-top: 16px;
-}
-
 .account-name {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
 .account-email {
   color: #9a9a9a;
-  font-size: 10px;
+  font-size: 1rem;
 }
 
 .account-info {
-  margin: 14px 14px 14px 0;
+  margin: 0 14px 0 0;
+  padding-bottom: 4px;
 }
 
 .searchbar-account {
+  align-items: center;
   background-color: #fff;
   display: flex;
+  height: 61px;
   padding: 0 32px;
   text-align: right;
 }

@@ -3,6 +3,7 @@
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   flex-grow: 1;
+  height: 61px;
 }
 
 .search-input {
@@ -13,7 +14,7 @@
   background-size: 14px;
   border: none;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
   flex-grow: 1;
   padding-left: 58px;
 }

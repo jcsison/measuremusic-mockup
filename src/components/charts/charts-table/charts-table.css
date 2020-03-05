@@ -14,7 +14,7 @@
 .table-bubble {
   border: 1px solid #000;
   border-radius: 15px;
-  padding: 4px 16%;
+  padding: 4px 1vw;
 }
 
 .table-link {
@@ -27,7 +27,7 @@
 }
 
 .table-link-arrow {
-  font-size: 10px;
+  font-size: 1rem;
   margin-left: 8px;
 }
 

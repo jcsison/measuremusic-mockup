@@ -7,7 +7,7 @@ import './searchbar.css'
 
 export default function Searchbar(props) {
   return (
-    <div className="flex-container searchbar">
+    <div className="searchbar">
       <SearchbarSearch />
       <SearchbarAccount />
     </div>

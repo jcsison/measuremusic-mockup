@@ -35,6 +35,7 @@
 .logo {
   display: block;
   margin: 24px auto;
+  max-width: 200px;
   width: 78%;
 }
 
@@ -59,14 +60,26 @@
   flex-basis: 16px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1079px) {
   .navbar {
-    opacity: 1;
+    flex-basis: 186px;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 975px) {
   .navbar {
-    opacity: 1;
+    flex-basis: 139px;
+  }
+}
+
+@media only screen and (max-width: 863px) {
+  .navbar {
+    flex-basis: 93px;
+  }
+}
+
+@media only screen and (max-width: 815px) {
+  .navbar {
+    flex-basis: 100%;
   }
 }

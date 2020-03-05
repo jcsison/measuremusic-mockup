@@ -2,5 +2,6 @@
   background-color: #fff;
   border: 1px solid #ececec;
   border-left: none;
-  height: 61px;
+  display: flex;
+  flex-wrap: wrap;
 }
