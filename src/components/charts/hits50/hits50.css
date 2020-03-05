@@ -8,13 +8,13 @@
   padding: 24px 58px;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 851px) {
   .hits50 {
     flex-wrap: wrap;
   }
 }
 
-@media only screen and (max-width: 639px) {
+@media only screen and (max-width: 652px) {
   .hits50-content {
     padding: 24px 24px;
   }

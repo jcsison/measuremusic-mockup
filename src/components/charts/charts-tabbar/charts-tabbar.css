@@ -8,6 +8,7 @@
   margin: 0 24px;
   padding-bottom: 16px;
   text-decoration: none;
+  transform: translateY(2px);
 }
 
 .tab-label-active {
@@ -26,10 +27,11 @@
 
 .tabbar-area {
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 1079px) {
+@media only screen and (max-width: 1114px) {
   .tab-label {
     margin: 0 19px;
   }
@@ -43,7 +45,7 @@
   }
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 1008px) {
   .tab-label {
     margin: 0 14px;
   }
@@ -57,7 +59,7 @@
   }
 }
 
-@media only screen and (max-width: 863px) {
+@media only screen and (max-width: 901px) {
   .tab-label {
     margin: 0 10px;
   }
@@ -71,7 +73,7 @@
   }
 }
 
-@media only screen and (max-width: 679px) {
+@media only screen and (max-width: 712px) {
   .tab-label {
     margin: 0 5px;
   }
@@ -85,7 +87,7 @@
   }
 }
 
-@media only screen and (max-width: 617px) {
+@media only screen and (max-width: 652px) {
   .tab-label-active {
     border-bottom: none;
   }

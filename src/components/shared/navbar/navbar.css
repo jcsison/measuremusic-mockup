@@ -60,25 +60,25 @@
   flex-basis: 16px;
 }
 
-@media only screen and (max-width: 1079px) {
+@media only screen and (max-width: 1114px) {
   .navbar {
     flex-basis: 186px;
   }
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 1008px) {
   .navbar {
     flex-basis: 139px;
   }
 }
 
-@media only screen and (max-width: 863px) {
+@media only screen and (max-width: 901px) {
   .navbar {
     flex-basis: 93px;
   }
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 851px) {
   .navbar {
     flex-basis: 100%;
   }

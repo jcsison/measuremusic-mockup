@@ -16,10 +16,10 @@ export default function ChartsTabbar(props) {
           Recurrent
         </a>
         <a className="tab-label" href="/#">
-          Most FADs
+          Most&nbsp;FADs
         </a>
         <a className="tab-label" href="/#">
-          Most Increased
+          Most&nbsp;Increased
         </a>
         <a className="tab-label" href="/#">
           Chartbound
