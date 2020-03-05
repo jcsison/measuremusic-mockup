@@ -68,6 +68,6 @@
 
 @media only screen and (max-width: 767px) {
   .navbar {
-    flex-basis: 32px;
+    opacity: 1;
   }
 }

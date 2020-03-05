@@ -1,12 +1,12 @@
-.chart-block {
+.chart-lg-block {
   margin: 32px 24px;
 }
 
-.chart-block-container {
+.chart-lg-block-container {
   flex-basis: 33%;
 }
 
-.chart-title-large {
+.chart-lg-title {
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.9px;
@@ -20,13 +20,13 @@
 }
 
 @media only screen and (max-width: 1599px) {
-  .chart-block-container {
+  .chart-lg-block-container {
     flex-basis: 50%;
   }
 }
 
 @media only screen and (max-width: 1199px) {
-  .chart-block-container {
+  .chart-lg-block-container {
     flex-basis: 100%;
   }
 }

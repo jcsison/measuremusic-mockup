@@ -7,9 +7,9 @@ import './charts-hl-large.css'
 export default function ChartsHlLarge(props) {
   return (
     <div className="charts-hl-large">
-      <div className="chart-block-container">
-        <div className="chart-block">
-          <div className="chart-title-large">Biggest Gainer</div>
+      <div className="chart-lg-block-container">
+        <div className="chart-lg-block">
+          <div className="chart-lg-title">Biggest Gainer</div>
           <ChartLarge
             art="/images/old-town-road-album.jpeg"
             stat="21"
@@ -19,9 +19,10 @@ export default function ChartsHlLarge(props) {
           />
         </div>
       </div>
-      <div className="chart-block-container">
-        <div className="chart-block">
-          <div className="chart-title-large">Biggest Dropper</div>
+
+      <div className="chart-lg-block-container">
+        <div className="chart-lg-block">
+          <div className="chart-lg-title">Biggest Dropper</div>
           <ChartLarge
             art="/images/get-stupid-album.jpg"
             down
@@ -31,9 +32,10 @@ export default function ChartsHlLarge(props) {
           />
         </div>
       </div>
-      <div className="chart-block-container">
-        <div className="chart-block">
-          <div className="chart-title-large">Highest Chart Debut</div>
+
+      <div className="chart-lg-block-container">
+        <div className="chart-lg-block">
+          <div className="chart-lg-title">Highest Chart Debut</div>
           <ChartLarge
             art="/images/old-town-road-album.jpeg "
             stat="#19"
@@ -42,9 +44,10 @@ export default function ChartsHlLarge(props) {
           />
         </div>
       </div>
-      <div className="chart-block-container">
-        <div className="chart-block">
-          <div className="chart-title-large">Top Artist</div>
+
+      <div className="chart-lg-block-container">
+        <div className="chart-lg-block">
+          <div className="chart-lg-title">Top Artist</div>
           <ChartLarge
             art="/images/taylor-swift-artist.jpg "
             stat="431,413"
@@ -53,9 +56,10 @@ export default function ChartsHlLarge(props) {
           />
         </div>
       </div>
-      <div className="chart-block-container">
-        <div className="chart-block">
-          <div className="chart-title-large">Most Stations On</div>
+
+      <div className="chart-lg-block-container">
+        <div className="chart-lg-block">
+          <div className="chart-lg-title">Most Stations On</div>
           <ChartLarge
             art="/images/old-town-road-album.jpeg"
             stat="431"

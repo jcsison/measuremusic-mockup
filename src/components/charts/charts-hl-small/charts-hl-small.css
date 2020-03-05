@@ -1,3 +1,39 @@
-.charts-hl-small {
-  background-color: #f00;
+.chart-sm-block {
+  margin: 24px 24px;
+}
+
+.chart-sm-block-container {
+  flex-basis: 25%;
+}
+
+.chart-sm-title {
+  font-weight: 600;
+}
+
+.charts-hl-sm-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -24px;
+}
+
+.charts-hl-sm-group {
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 1599px) {
+  .chart-sm-block-container {
+    flex-basis: 33%;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .chart-sm-block-container {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 1079px) {
+  .chart-sm-block-container {
+    flex-basis: 100%;
+  }
 }

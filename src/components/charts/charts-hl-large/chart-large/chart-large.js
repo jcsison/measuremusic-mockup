@@ -14,10 +14,11 @@ export default function ChartLarge(props) {
           <span className="chart-lg-main">
             <div className="chart-lg-info">
               {props.title != null && (
-                <div className="chart-lg-title">{props.title}</div>
+                <div className="chart-lg-info-title">{props.title}</div>
               )}
+
               {props.subtitle != null && (
-                <div className="chart-lg-subtitle">{props.subtitle}</div>
+                <div className="chart-lg-info-subtitle">{props.subtitle}</div>
               )}
             </div>
 
@@ -35,12 +36,15 @@ export default function ChartLarge(props) {
                 {props.up === true && (
                   <i className="chart-lg-icon-up fas fa-arrow-up" />
                 )}
+
                 {props.down === true && (
                   <i className="chart-lg-icon-down fas fa-arrow-down" />
                 )}
+
                 {props.stat}
               </div>
             )}
+
             {props.substat != null && (
               <div className="chart-lg-substat">{props.substat}</div>
             )}

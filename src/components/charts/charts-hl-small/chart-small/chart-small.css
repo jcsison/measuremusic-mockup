@@ -1,59 +1,59 @@
-.chart-large {
+.chart-small {
   background-color: #fff;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.chart-lg-area {
+.chart-sm-area {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding-right: 20px;
 }
 
-.chart-lg-icon-down {
+.chart-sm-icon-down {
   color: #f2648a;
   font-size: 12px;
   margin-right: 4px;
   transform: rotate(45deg);
 }
 
-.chart-lg-icon-plus {
-  margin: 0 6px 2px 0;
+.chart-sm-icon-plus {
+  margin: 0 1px 4px 0;
 }
 
-.chart-lg-icon-up {
+.chart-sm-icon-up {
   color: #00d092;
   font-size: 12px;
   margin-right: 4px;
   transform: rotate(45deg);
 }
 
-.chart-lg-img {
+.chart-sm-img {
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.1);
   height: 75px;
   width: 75px;
 }
 
-.chart-lg-info {
+.chart-sm-info {
   padding: 0 16px 0 32px;
 }
 
-.chart-lg-info-subtitle {
+.chart-sm-info-subtitle {
   color: #9a9a9a;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: -0.42px;
 }
 
-.chart-lg-info-title {
+.chart-sm-info-title {
   font-weight: 600;
   letter-spacing: -0.52px;
 }
 
-.chart-lg-left {
+.chart-sm-left {
   display: flex;
 }
 
-.chart-lg-options {
+.chart-sm-options {
   align-items: center;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -62,26 +62,25 @@
   display: flex;
   font-family: 'Source Sans Pro', sans-serif;
   height: 28px;
-  padding-bottom: 2px;
 }
 
-.chart-lg-main {
+.chart-sm-main {
   align-items: center;
   display: flex;
 }
 
-.chart-lg-right {
+.chart-sm-right {
   align-items: center;
   display: flex;
 }
 
-.chart-lg-stat {
+.chart-sm-stat {
   font-size: 22px;
   font-weight: 600;
   text-align: right;
 }
 
-.chart-lg-substat {
+.chart-sm-substat {
   color: #9a9a9a;
   font-size: 13px;
   font-weight: 600;
