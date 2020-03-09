@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.hits50-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 .hits50-content {
   background-color: #f9f9f9;
   flex-grow: 1;
@@ -11,6 +17,10 @@
 @media only screen and (max-width: 851px) {
   .hits50 {
     flex-wrap: wrap;
+  }
+
+  .navlinks {
+    padding: 0 24px;
   }
 }
 

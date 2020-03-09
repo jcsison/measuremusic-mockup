@@ -4,7 +4,15 @@ import './navbar.css'
 
 export default function Navbar(props) {
   return (
-    <div className="navbar">
+    <div
+      className={
+        'navbar ' +
+        (props.position ? ' ' + props.position : '') +
+        (props.position === 'navbar-bottom' && props.menuOpen
+          ? ' navbar-hide'
+          : '')
+      }
+    >
       <a href="/#">
         <img
           className="logo"

@@ -34,14 +34,14 @@ button:focus {
   display: flex;
 }
 
-.flex-subcontainer {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
 @media only screen and (max-width: 652px) {
   ::placeholder {
     opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 394px) {
+  html {
+    font-size: 45%;
   }
 }

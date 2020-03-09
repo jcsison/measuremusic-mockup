@@ -12,12 +12,25 @@ import Searchbar from '../../shared/searchbar'
 import './hits50.css'
 
 export default function Hits50(props) {
+  // todo: move shared components into a layout component
+
+  const [menuOpen, setMenuOpen] = React.useState(true)
+
   return (
     <div className="hits50">
-      <Navbar />
+      <Navbar
+        menuOpen={menuOpen}
+        position={'navbar-top'}
+        setMenuOpen={setMenuOpen}
+      />
 
-      <div className="flex-subcontainer">
-        <Searchbar />
+      <div className="hits50-container">
+        <Searchbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Navbar
+          menuOpen={menuOpen}
+          position={'navbar-bottom'}
+          setMenuOpen={setMenuOpen}
+        />
 
         <div className="hits50-content">
           <ChartsHeader />

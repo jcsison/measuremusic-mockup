@@ -1,7 +1,32 @@
+.navbar-collapsed {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 61px;
+  justify-content: center;
+  width: 61px;
+}
+
+.navbar-collapsed-icon {
+  font-size: 20px;
+  padding-top: 16px;
+}
+
 .searchbar {
   background-color: #fff;
   border: 1px solid #ececec;
   border-left: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (min-width: 852px) {
+  .navbar-collapsed {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 851px) {
+  .searchbar {
+    display: inherit;
+  }
 }

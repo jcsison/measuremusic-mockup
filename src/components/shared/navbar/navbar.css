@@ -46,6 +46,16 @@
   flex-shrink: 0;
 }
 
+.navbar-bottom {
+  border-top: none;
+  display: none;
+  flex-shrink: 2;
+}
+
+.navbar-hide {
+  display: none !important;
+}
+
 .navlinks {
   list-style-type: none;
   padding: 32px 24px;
@@ -79,7 +89,19 @@
 }
 
 @media only screen and (max-width: 851px) {
+  .logo {
+    display: none;
+  }
+
   .navbar {
     flex-basis: 100%;
+  }
+
+  .navbar-bottom {
+    display: block;
+  }
+
+  .navbar-top {
+    display: none;
   }
 }
