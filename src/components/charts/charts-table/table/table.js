@@ -12,8 +12,7 @@ export default function Table({ columns, data }) {
     rows
   } = useTable({
     columns,
-    data,
-    initialState: { pageIndex: 2 }
+    data
   })
 
   return (

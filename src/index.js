@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import './index.css'
-import Hits50 from './pages/hits50'
+import Hits50 from './pages/charts/hits50'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(<Hits50 />, document.getElementById('root'))

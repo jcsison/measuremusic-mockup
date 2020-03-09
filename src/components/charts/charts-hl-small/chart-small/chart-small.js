@@ -1,7 +1,7 @@
 import React from 'react'
 import { Tooltip } from 'react-tippy'
 
-import ChartOptions from '../../chart-options'
+import ChartsOptions from '../../charts-options'
 
 import './chart-small.css'
 
@@ -27,7 +27,7 @@ export default function ChartSmall(props) {
 
             <Tooltip
               animation="shift"
-              html={<ChartOptions />}
+              html={<ChartsOptions />}
               position="bottom-start"
               trigger="click"
             >
