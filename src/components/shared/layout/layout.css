@@ -1,31 +1,27 @@
-.hits50 {
+.layout {
   display: flex;
 }
 
-.hits50-container {
+.layout-container {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-.hits50-content {
+.page-content {
   background-color: #f9f9f9;
   flex-grow: 1;
   padding: 24px 58px;
 }
 
 @media only screen and (max-width: 851px) {
-  .hits50 {
+  .layout {
     flex-wrap: wrap;
-  }
-
-  .navlinks {
-    padding: 0 24px;
   }
 }
 
 @media only screen and (max-width: 652px) {
-  .hits50-content {
+  .page-content {
     padding: 24px 24px;
   }
 }

@@ -104,4 +104,8 @@
   .navbar-top {
     display: none;
   }
+
+  .navlinks {
+    padding: 0 24px;
+  }
 }
